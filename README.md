@@ -4,6 +4,8 @@
 
 ## patchelf-recurse
 
+This project depends on [NixOS's patchelf >>>](https://github.com/NixOS/patchelf)
+
 Combining linux executable programs and dependent dynamic link libraries. 
 
 After using this program, you can port CentOS 8 programs to CentOS 7 for execution. 
@@ -29,7 +31,13 @@ First, put your application to a directory, like /root/x64:
 <br>
 <br>
 
-Then, uncompress patchelf-recurse.tar.gz to /root directory:
+Then, download and uncompress patchelf-recurse.tar.gz to /root directory:
+
+```shell
+wget https://www.javaai.org/uploads/file/20240607/1717772613420044993.gz -O patchelf-recurse.tar.gz
+tar -zxvf patchelf-recurse.tar.gz
+```
+
 <p >
   <img src="./imgs/2.png" >
 </p>
